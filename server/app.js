@@ -10,7 +10,7 @@ app.use(
     origin: [
       "http://localhost:5173",          
       "http://localhost:3000",          
-      "https://ai-student-assistant.vercel.app/"
+      "https://ai-student-assistant.vercel.app",
     ],
     methods: ["GET", "POST"],
   })
