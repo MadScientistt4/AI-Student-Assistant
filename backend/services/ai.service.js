@@ -88,7 +88,7 @@ ${userInput}
 }
 
 async function generateFromAI(userInput, mode) {
-  const model = genAI.getGenerativeModel({ model: "gemini-pro" });
+  const model = genAI.getGenerativeModel({ model: "gemini-2.5-flash-lite" });
 
   const prompt = buildPrompt(userInput, mode);
 
