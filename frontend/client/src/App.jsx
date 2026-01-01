@@ -18,7 +18,7 @@ export default function App() {
       const res = await generateAIResponse(data);
       setResponse(res.response);
     } catch (err) {
-      setError("Something went wrong. Please try again.");
+      setError(err.message || "An error occurred");
     } finally {
       setLoading(false);
     }
