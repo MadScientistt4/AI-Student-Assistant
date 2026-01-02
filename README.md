@@ -1,7 +1,7 @@
 # AI-Powered Student Assistant (MERN + Gemini)
 ---
 
-## 🌐 Deployed Live Links (Optional)
+## 🌐 Deployed Live Links
 
 Frontend (Vercel):
 https://ai-student-assistant.vercel.app
@@ -214,5 +214,6 @@ Each prompt includes:
 
 Different task modes dynamically switch between predefined prompt templates.  
 This ensures consistent, predictable, and evaluation-friendly AI outputs.
+
 
 
